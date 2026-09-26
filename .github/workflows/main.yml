@@ -17,4 +17,6 @@ jobs:
           node-version: 20
 
       - name: Run Application
+        env:
+          APP_NAME: "ai-incident-project"
         run: npm start
